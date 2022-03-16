@@ -26,7 +26,7 @@
             "value" : 0
           },
           "hash" : "63dcb0037be5b4ca59a2a9c029a4dbcd37fbc5a7999ff2dca0be7aa3bc8af875",
-          "txbytes" : "0xf860800a830f424094100000000000000000000000000000000000000080801ba0878fccf1801724b1bfb5b0a67d68454b9c56fe9e3753200bc36cd66eed5636eca00dc53455b0e859433799ddbe3c16f98e70c52b6bf684992d9907dc9d1ccb03f1",
+          "txbytes" : "",
           "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
         }
       ]
