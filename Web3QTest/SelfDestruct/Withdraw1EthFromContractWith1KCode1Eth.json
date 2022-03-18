@@ -1,0 +1,75 @@
+{
+  "CodeInConstructor" : {
+    "_info" : {
+      "comment" : "Ori Pomerantz qbzzt1@gmail.com",
+      "filling-rpc-server" : "evm version 1.10.4-unstable-950d99c2-20210602",
+      "filling-tool-version" : "retesteth-0.1.1-eip1559+commit.458b2c9b.Linux.g++",
+      "lllcversion" : "Version: 0.5.14-develop.2021.5.18+commit.14c9d5de.mod.Linux.g++",
+      "source" : "src/.yml",
+      "sourceHash" : ""
+    },
+    "env" : {
+      "currentCoinbase" : "0xba5e0000ba5e0000ba5e0000ba5e0000ba5e0000",
+      "currentDifficulty" : "0x020000",
+      "currentNumber" : "0x01",
+      "currentTimestamp" : "0x03e8",
+      "previousHash" : "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6",
+      "currentGasLimit" : "0x0100000000",
+      "currentBaseFee" : "0x0a"
+    },
+    "post" : {
+      "London" : [
+        {
+          "indexes" : {
+            "data" : 0,
+            "gas" : 0,
+            "value" : 0
+          },
+          "hash" : "65b8155728f32736b225bf1fc3bbff56075547bf177ec56cc29dd09c128fbd9f",
+          "txbytes" : "",
+          "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+        }
+      ]
+    },
+    "pre" : {
+      "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
+        "balance" : "0x0DE0B6B3A7640000",
+        "code" : "0x",
+        "nonce" : "0x00",
+        "storage" : {
+        }
+      },
+      "0x0000000000000000000000000000000000000aaa" : {
+        "balance" : "0x0DE0B6B3A7640000",
+        "code" : "0x60806040526004361061001d5760003560e01c8062f714ce14610022575b600080fd5b61003c600480360381019061003791906100b3565b61003e565b005b8073ffffffffffffffffffffffffffffffffffffffff166108fc839081150290604051600060405180830381858888f19350505050158015610084573d6000803e3d6000fd5b505050565b60008135905061009881610134565b92915050565b6000813590506100ad8161014b565b92915050565b600080604083850312156100ca576100c961012f565b5b60006100d88582860161009e565b92505060206100e985828601610089565b9150509250929050565b60006100fe82610105565b9050919050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000819050919050565b600080fd5b61013d816100f3565b811461014857600080fd5b50565b61015481610125565b811461015f57600080fd5b5056fea264697066735822122059166843ae528f0575faf02d23212089e92ef768ec3701f00d1076e4598733ad64736f6c63430008070033aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "nonce" : "0x00",
+        "storage" : {
+        },
+        "solidityCode": "contract Test {\n    function withdraw(uint256 amount, address payable to) external payable {\n    to.transfer(amount);\n    }\n}"
+      },
+      "0x0000000000000000000000000000000000000bbb" : {
+        "balance" : "0x00",
+        "code" : "0x",
+        "nonce" : "0x00",
+        "storage" : {
+        }
+      }
+    },
+    "transaction" : {
+      "data" : [
+        "0x00f714ce0000000000000000000000000000000000000000000000000de0b6b3a76400000000000000000000000000000000000000000000000000000000000000000bbb"
+      ],
+      "_comment": "destruct(unit256,address)",
+      "gasPrice" : "0x14",
+      "gasLimit" : [
+        "0x60000"
+      ],
+      "nonce" : "0x00",
+      "secretKey" : "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
+      "to" : "0x0000000000000000000000000000000000000aaa",
+      "value" : [
+        "0x0000000"
+      ]
+    }
+  }
+}
