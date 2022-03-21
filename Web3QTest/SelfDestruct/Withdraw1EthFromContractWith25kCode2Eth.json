@@ -59,7 +59,7 @@
       "data" : [
         "0x00f714ce0000000000000000000000000000000000000000000000000de0b6b3a76400000000000000000000000000000000000000000000000000000000000000000bbb"
       ],
-      "_comment": "destruct(unit256,address)",
+      "_comment": "withdraw(unit256,address)",
       "gasPrice" : "0x14",
       "gasLimit" : [
         "0x60000"
