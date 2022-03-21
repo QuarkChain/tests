@@ -45,15 +45,14 @@
         "nonce" : "0x00",
         "storage" : {
         },
-        "solidityCode": ""
+        "solidityCode": "contract Test {\n    function withdraw(uint256 amount, address payable to) external payable {\n    to.transfer(amount);\n    }\n}"
       },
       "0x0000000000000000000000000000000000000bbb" : {
         "balance" : "0x00",
         "code" : "0x",
         "nonce" : "0x00",
         "storage" : {
-        },
-        "solidityCode": ""
+        }
       }
     },
     "transaction" : {
